@@ -1,6 +1,7 @@
 @echo off
 
-set OPT_HOME=D:\opt
+set OPT_DRIVE=%~d0
+set OPT_HOME=%OPT_DRIVE%\opt
 
 Rem
 Rem Java
